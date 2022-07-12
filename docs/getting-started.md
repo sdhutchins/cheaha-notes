@@ -1,7 +1,5 @@
 # UAB Compute Cluster a.k.a. Cheaha
 
-[TOC]
-
 ## Overview
 
 Cheaha is a large, multi-unit computational system for running massively
@@ -13,19 +11,11 @@ supported by a high-speed parallel filesystem (GPFS) that can store 6 PB non-red
 more to come!) interconnected by a high speed infiniband network. UAB researchers use Cheaha for wide variety of
 research such as genomics, neuro-imaging, machine learning, statistical genetics, cancer detection etc.
 
-Use of this resource is governed by the
-[UAB Acceptable Use Policy for Computer and Network Resources](https://www.uab.edu/policies/content/Pages/UAB-IT-POL-0000004.aspx)
-
-For more information on Cheaha and the tools available to support research please review the documentation:
-<http://docs.uabgrid.uab.edu/wiki/Cheaha>
-
 ## Access (Cluster Account Request)
 
 To get started using [Cheaha](https://docs.uabgrid.uab.edu/wiki/Cheaha), simply visit our [Open OnDemand](https://docs.uabgrid.uab.edu/wiki/Open_OnDemand) portal at [https://rc.uab.edu](https://rc.uab.edu/). This is the primary entry point for Cheaha and provides access to all cluster services directly from your web browser, including graphical desktops, Jupyter Notebooks, and even the traditional command-line.
 
 If you don't already have an account, you will be prompted to create one the first time you log into the portal. If you are creating an account, please share some of your interests in using Cheaha as this help us understand the science interests of our users.
-
-**Please note**: Usage of Cheaha is governed by [UAB's Acceptable Use Policy (AUP)](https://www.uab.edu/policies/content/Pages/UAB-IT-POL-0000004.aspx) for computer resources.
 
 ## Logging In
 
@@ -35,7 +25,7 @@ You can also log into Cheaha via a traditional SSH client. Most UAB Windows work
 
 Usage of Cheaha is governed by [UAB's Acceptable Use Policy (AUP)](https://www.uab.edu/policies/content/Pages/UAB-IT-POL-0000004.aspx) for computer and network resources.
 
-Check out https://uabrc.github.io/cheaha/uabgrid_getting_started/#login for more details on logging in.
+Check [here](https://uabrc.github.io/cheaha/uabgrid_getting_started/#login) for more information on logging in.
 
 ### Login Credentials
 
@@ -57,12 +47,6 @@ Each user is allocated 5 TB of personal storage by default. This storage quota i
 In addition to personal storage, Primary Investigators may request additional shared storage for their lab personnel. This space is given a default size of 25 TB. Each PI may have one project space. To request project storage space, the PI should email support at support@listserv.uab.edu with the name of the project as well as the Blazer IDs of the researchers to give access to. Any future requests for giving or removing access must come from the PI.
 
 ## Submitting Jobs
-
-You can SSH into the cluster via
-
-```bash
-ssh BLAZERID@cheaha.rc.uab.edu
-```
 
 The cluster uses the Slurm queue management system (stands for Simple Linux Utility for Resource Management) for
 scheduling, distributing, and managing compute "jobs". A "job" is just a general term used to describe doing a specific
