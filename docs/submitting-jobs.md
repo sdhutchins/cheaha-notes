@@ -17,10 +17,8 @@ out the below tutorial for a quick high level view of the cluster.
 
 ## Multiple Partitions
 
-Tip
-{: .label .label-yellow }
-
-You can specify multiple partitions in your Slurm script by listing them separated by commas in the `#SBATCH --partition` directive:
+{: .tip }
+> You can specify multiple partitions in your Slurm script by listing them separated by commas in the `#SBATCH --partition` directive:
 
 ```bash
 #SBATCH --partition=partition1,partition2,partition3

@@ -22,7 +22,8 @@ To get started using [Cheaha](https://docs.uabgrid.uab.edu/wiki/Cheaha), simply 
 
 [Access Cheaha Open OnDemand Portal](https://rc.uab.edu/){: .btn .btn-blue }
 
-If you don't already have an account, you will be prompted to create one the first time you log into the portal. If you are creating an account, please share some of your interests in using Cheaha as this help us understand the science interests of our users.
+{: .important }
+> If you don't already have an account, you will be prompted to create one the first time you log into the portal. If you are creating an account, please share some of your interests in using Cheaha as this help us understand the science interests of our users.
 
 ## Logging In
 
@@ -32,7 +33,8 @@ Once your account has been created, you'll receive an email containing your user
 
 You can also log into Cheaha via a traditional SSH client. Most UAB Windows workstations already have an SSH client installed, possibly named **SSH Secure Shell Client** or [PuTTY](http://www.chiark.greenend.org.uk/~sgtatham/putty/). Linux and Mac OS X systems should have an SSH client installed by default.
 
-Usage of Cheaha is governed by [UAB's Acceptable Use Policy (AUP)](https://www.uab.edu/policies/content/Pages/UAB-IT-POL-0000004.aspx) for computer and network resources.
+{: .warning }
+> Usage of Cheaha is governed by [UAB's Acceptable Use Policy (AUP)](https://www.uab.edu/policies/content/Pages/UAB-IT-POL-0000004.aspx) for computer and network resources.
 
 [More Login Information](https://uabrc.github.io/cheaha/uabgrid_getting_started/#login){: .btn .btn-outline }
 
