@@ -1,0 +1,16 @@
+// Custom color scheme - replaces purple with blue
+// Based on the light color scheme
+
+// Change link color from purple to blue
+$link-color: $blue-000;
+$link-color-hover: $blue-100;
+$link-color-visited: $blue-200;
+
+// Change button colors from purple to blue
+$btn-primary-color: $blue-000;
+$btn-primary-color-hover: $blue-100;
+$btn-primary-color-active: $blue-200;
+
+// Change label colors from purple to blue
+$label-text: $blue-300;
+$label-text-light: $blue-200;
