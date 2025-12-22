@@ -5,8 +5,8 @@ remote_theme: just-the-docs/just-the-docs
 plugins:
   - jekyll-remote-theme
 
-baseurl: ""
-url: ""
+baseurl: "/cheaha-notes"
+url: "https://www.shauritahutchins.com"
 
 search_enabled: true
 
