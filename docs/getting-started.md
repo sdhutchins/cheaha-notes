@@ -20,17 +20,21 @@ research such as genomics, neuro-imaging, machine learning, statistical genetics
 
 To get started using [Cheaha](https://docs.uabgrid.uab.edu/wiki/Cheaha), simply visit our [Open OnDemand](https://docs.uabgrid.uab.edu/wiki/Open_OnDemand) portal at [https://rc.uab.edu](https://rc.uab.edu/). This is the primary entry point for Cheaha and provides access to all cluster services directly from your web browser, including graphical desktops, Jupyter Notebooks, and even the traditional command-line.
 
+[Access Cheaha Open OnDemand Portal](https://rc.uab.edu/){: .btn .btn-blue }
+
 If you don't already have an account, you will be prompted to create one the first time you log into the portal. If you are creating an account, please share some of your interests in using Cheaha as this help us understand the science interests of our users.
 
 ## Logging In
 
 Once your account has been created, you'll receive an email containing your user ID, generally your Blazer ID. You can [log into Cheaha via your web browser](https://rc.uab.edu/) using the new web-based HPC experience.
 
+[Login to Cheaha](https://rc.uab.edu/){: .btn .btn-blue }
+
 You can also log into Cheaha via a traditional SSH client. Most UAB Windows workstations already have an SSH client installed, possibly named **SSH Secure Shell Client** or [PuTTY](http://www.chiark.greenend.org.uk/~sgtatham/putty/). Linux and Mac OS X systems should have an SSH client installed by default.
 
 Usage of Cheaha is governed by [UAB's Acceptable Use Policy (AUP)](https://www.uab.edu/policies/content/Pages/UAB-IT-POL-0000004.aspx) for computer and network resources.
 
-Check [here](https://uabrc.github.io/cheaha/uabgrid_getting_started/#login) for more information on logging in.
+[More Login Information](https://uabrc.github.io/cheaha/uabgrid_getting_started/#login){: .btn .btn-outline }
 
 ### Login Credentials
 
@@ -57,6 +61,8 @@ Anaconda is a free and open-source distribution of the Python and R programming 
 aims to simplify package management and deployment. Package versions are managed by the package management system conda.
 CDGS plans on using conda on the cluster for multiple projects involving the use of python.
 
+[Anaconda Documentation](https://uabrc.github.io/cheaha/conda/){: .btn .btn-green }
+
 ### Conda Shortcuts on Cheaha
 
 * Enabling Conda Module on Cluster
@@ -80,5 +86,4 @@ CDGS plans on using conda on the cluster for multiple projects involving the use
 * Deleting a Conda Virtual Environment
   `conda remove --name test_env --all`
 
-For a complete tutorial and for a most up-to-date version, please use the tutorial from
-[UAB Research Compute's Anaconda documenation](https://uabrc.github.io/cheaha/conda/).
+For a complete tutorial and for a most up-to-date version, please use the tutorial from [UAB Research Compute's Anaconda documenation](https://uabrc.github.io/cheaha/conda/).

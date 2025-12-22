@@ -6,4 +6,4 @@ nav_order: 1
 
 # Welcome to my cheaha notes
 
-Get started [here](docs/getting-started.md).
+[Get Started](docs/getting-started.md){: .btn .btn-blue }
