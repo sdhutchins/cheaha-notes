@@ -12,3 +12,19 @@ search_enabled: true
 
 # Custom color scheme - replaces default purple with blue
 color_scheme: custom
+
+# Callout configuration
+callouts_level: quiet
+callouts:
+  note:
+    title: Note
+    color: blue
+  important:
+    title: Important
+    color: yellow
+  warning:
+    title: Warning
+    color: red
+  tip:
+    title: Tip
+    color: green
