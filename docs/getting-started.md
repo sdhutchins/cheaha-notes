@@ -1,3 +1,8 @@
+---
+title: Getting Started
+nav_order: 2
+---
+
 # UAB Compute Cluster a.k.a. Cheaha
 
 ## Overview
@@ -44,17 +49,7 @@ Each user is allocated 5 TB of personal storage by default. This storage quota i
 
 ### Project Directories
 
-In addition to personal storage, Primary Investigators may request additional shared storage for their lab personnel. This space is given a default size of 25 TB. Each PI may have one project space. To request project storage space, the PI should email support at support@listserv.uab.edu with the name of the project as well as the Blazer IDs of the researchers to give access to. Any future requests for giving or removing access must come from the PI.
-
-## Submitting Jobs
-
-The cluster uses the Slurm queue management system (stands for Simple Linux Utility for Resource Management) for
-scheduling, distributing, and managing compute "jobs". A "job" is just a general term used to describe doing a specific
-task, or set of tasks (specified in script) on the compute contained within the cluster.
-
-For a complete description and tutorial of writing and executing jobs on the cluster see Research Computing's helpful
-[guide](https://docs.uabgrid.uab.edu/wiki/Slurm) on Slurm and executing compute tasks on the cluster. You can also check
-out the below tutorial for a quick high level view of the cluster.
+In addition to personal storage, Primary Investigators may request additional shared storage for their lab personnel. This space is given a default size of 25 TB. Each PI may have one project space. To request project storage space, the PI should email support at <support@listserv.uab.edu> with the name of the project as well as the Blazer IDs of the researchers to give access to. Any future requests for giving or removing access must come from the PI.
 
 ## Python on Cheaha
 
@@ -65,7 +60,7 @@ CDGS plans on using conda on the cluster for multiple projects involving the use
 ### Conda Shortcuts on Cheaha
 
 * Enabling Conda Module on Cluster
-  `module avail Anaconda`
+  `module avail Anaconda3`
 
 * Creating new Conda Environment
   `conda create --name test_env`

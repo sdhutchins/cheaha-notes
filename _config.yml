@@ -1,0 +1,14 @@
+title: Cheaha Notes
+description: Documentation for UAB Cheaha compute cluster
+
+remote_theme: just-the-docs/just-the-docs
+plugins:
+  - jekyll-remote-theme
+
+baseurl: ""
+url: ""
+
+search_enabled: true
+
+# Custom color scheme - replaces default purple with blue
+color_scheme: custom
